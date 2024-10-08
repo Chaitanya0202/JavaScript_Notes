@@ -1,12 +1,11 @@
-// NOTE  --->
+// JAVASCRIPT  NOTE  --->
 
 // Primitive datatype in javascript-->
 // string
 // number
 // boolean
 // undefined
-
-
+// ------------------
 // 1) split()
 // 2) sort
 // 3) concate
@@ -28,7 +27,7 @@
 // 19) spread()
 //  reduce
 
-//................String Methods..
+//................String Methods.......................
 // note --> all String method are returns new String , they can not modify orignal string
 // Bcoz String are immutable
 
@@ -41,7 +40,7 @@
 // 26)  charCodeAt(0)
 // 27) Escape CHarector --->  \" text \"
 
-
+// -------------------------------------------------
 
 //I]     Object
 //II]  Array
@@ -131,7 +130,7 @@
 
 
 
-// // or
+// // OR
 // arr=arr.map((ele)=>Math.pow(ele,3));
 // console.log(arr);
 
@@ -205,7 +204,7 @@
 // }
 
 
-
+// ------------------------------------------------
 
 // datatypes -->
 // number 
@@ -214,7 +213,7 @@
 // undefined
 // Symbols
 // Object
-
+// ---------------------------------------------------------
 
 // a.forEach(element => {
 //         console.log(element);
@@ -264,7 +263,7 @@
 // console.log(arr);
 // let arr2=arr.fill(10);
 // console.log(arr2);
-
+// ----------------------------------------------
 // 14) slice()-->
 // 1) it used for extract the elements in  perticular range
 // its return the new array after giving the start and end index for new array
@@ -278,7 +277,7 @@
 // let t=s.slice(0,2);
 // let t=s.slice(3,); //last index is optional
 // console.log(t);
-
+// ------------------------------------------------
 //  15)PUSH()--->
 // it will helps to add one or more element in last of the array
 // ex
@@ -287,7 +286,7 @@
 // console.log(a);
 
 // op--->[1, 2, 3, 4, 5]
-
+// ------------------------------------------------
 // 16) pop()--->
 // it remove the last element in the array
 // let b=[1,2,3,5,4];
@@ -295,7 +294,7 @@
 // console.log(b);
 // op--->[1, 2, 3,5]
 
-
+// ------------------------------------------------
 
 //17) shift()--->
 
@@ -308,6 +307,8 @@
 // a.unshift(23);
 // console.log(a);
 
+// ------------------------------------------------
+
 //18) flat()-->
 // it used for converting the two dimensonal array into single dimensional array
 // let arr=[[1,2,3],[4,5,6]];
@@ -315,6 +316,7 @@
 // let arr1=arr.flat();
 // console.log(arr1);
 
+// ------------------------------------------------
 // 19) spred()--->
 // it is used for copy or converting or storing the array
 // 1) copy the all elements in different array
@@ -338,7 +340,7 @@
 
 // slice ,substring and substr are used to extract the element in the string
 
-// ------------------- reduce
+// ------------------- reduce------------------------
 // const arr=[2,4,6,3,8];
 
 // reduce method takes two method first as function and second arg take initial value or result
@@ -350,7 +352,7 @@
 //         return acc+ele
 // },0)
 // console.log(result)
-
+// ---------------------------------------------------
 
 // 20) slice -->
 // let a="Chetan";
@@ -358,6 +360,7 @@
 // console.log(a.substring(2,1));//-->swap the arguments if startIndex is Greater than EndIndex -->Always Return SOmethiing
 // console.log(a.substr(2,4));// second parameter take default length of the str
 
+// ------------------------------------------------// ------------------------------------------------
 // 21) replace()--->
 // this method is used to replace element in string or array
 // can not change orignal value
@@ -380,6 +383,7 @@
 // console.log(b);
 // console.log(b.replace("good","bad"));
 
+// ------------------------------------------------// ------------------------------------------------
 // 22) toUpperCase And toLowerCase()---->
 //    are user to transform the lower to upper or upper to lower case
 // let n="chetan";
@@ -391,6 +395,7 @@
 // let b=a+n.slice(1,);//---> Chetan
 // console.log(b)
 
+// ------------------------------------------------// ------------------------------------------------
 // 23) trim()--> used to remove whitespace of world
 // 1) a.trimStrat --> remove whitedspace of start of the word
 // 2) a.trimEnd()--> remoce whithspace at the end of the word
@@ -402,6 +407,7 @@
 // console.log(a.trimStart());
 // console.log(a.trimEnd());
 
+// ------------------------------------------------// ------------------------------------------------
 // 24) pad()--> two subtype -->1) a.padStart() 2) a.padEnd()
 
 // let text = "5";
@@ -410,11 +416,14 @@
 // //                                 // 2nd is for what string you want give as padding
 // console.log(padded)
 
+// ------------------------------------------------// ------------------------------------------------
 // 25)toString()---> used for converting the number into String
 // let num=6;
 // // num.toString();//we can not change string we have to store in different variable
 // let num1=num.toString();
 // console.log(typeof num1);
+
+// ------------------------------------------------// ------------------------------------------------
 
 //26) charCodeAt()---> it give ASCII value of charector
 
@@ -439,6 +448,7 @@
 
 // });
 // console.log(ans2);
+// ------------------------------------------------// ------------------------------------------------
 
 // 27)  Escape Charector ---> in JS String is written in Double Quote so compiler misunderstand the string therefor we use escape charector such as
 
@@ -520,18 +530,6 @@
 // console.log(arr3)
 
 
-// ---------------------------------------------------------------------------
-//                              FUNCTIONS                
-//-----------------------------------------------------------------------
-//  1) No Arguments Function
-//  2) Parameterixe Function
-//  3) Anonymous Function
-// 4)  self-Invoking function
-// 5)  Clouer / Nested Function
-// 6)  Async Function-->1)asynch and await
-// 7) Expression Function
-// 8) Fat Arrow Function
-// 9) callback Function
 
 // ********************************************************************************
 // Map
@@ -552,13 +550,26 @@
 
 
 
+// ---------------------------------------------------------------------------
+//                              FUNCTIONS                
+//-----------------------------------------------------------------------
+//  1) No Arguments Function
+//  2) Parameterixe Function
+//  3) Anonymous Function
+// 4)  self-Invoking function
+// 5)  Clouer / Nested Function
+// 6)  Async Function-->1)asynch and await
+// 7) Expression Function
+// 8) Fat Arrow Function
+// 9) callback Function
+
 // ********************************************************************
 //                       1) No Arguments Function
 // function a(){
 //     console.log("this is no Argumetns function");
 // }
 // a();
-//------------------------//
+//------------------------//// ------------------------------------------------
 //                       2) Parameterixe Function--> 
 // the function which takes the parameter as input(formal argumetns)
 
@@ -566,7 +577,7 @@
 //         console.log(`My Name is ${name}`);
 // }
 // b("Chetan")
-//-----------------------------//
+//-----------------------------//// ------------------------------------------------
 //                      3) Anonymous Function
 // --> The Function without Function_Name is called anonymous Function
 
@@ -580,7 +591,7 @@
 
 
 
-//-------------------------------//
+//-------------------------------//// ------------------------------------------------
 //                      4)  self-Invoking function 
 // the Function which not need to call for execute
 // function inclosed in () 
@@ -590,7 +601,7 @@
 //         console.log("This is From Self Invoking Function");
 // })();
 
-//--------------------------------//
+//--------------------------------//// ------------------------------------------------
 //                      5) Clouer / Nested Function
 // --->The Function Having Another Function inside it is known as clouser or nested function
 
@@ -605,7 +616,7 @@
 // }
 // a()
 // Note---> the Scope of the inner Function only till inner function we can not call outside of the outer Function
-//-----------------------------//
+//-----------------------------//// ------------------------------------------------
 //                      6)  Asynchronis Function
 
 
